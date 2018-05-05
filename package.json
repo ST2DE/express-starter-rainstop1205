@@ -1,18 +1,30 @@
 {
   "name": "express-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "```\r $ npm install\r # edit config/config.json\r # create database\r $ export NODE_ENV=development\r $ ./node_modules/sequelize-cli/lib/sequelize db:migrate\r $ ./node_modules/sequelize-cli/lib/sequelize db:seed:all\r $ npm start\r ```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
     "mysql2": "^1.5.1",
     "sequelize": "^4.32.3",
     "sequelize-cli": "^3.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ST2DE/express-starter-rainstop1205.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ST2DE/express-starter-rainstop1205/issues"
+  },
+  "homepage": "https://github.com/ST2DE/express-starter-rainstop1205#readme"
 }

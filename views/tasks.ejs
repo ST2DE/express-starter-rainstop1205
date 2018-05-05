@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ToDo List</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<h1>Welcome to ToDo List!!!</h1>
+	<form action="/task/create" method="POST">
+		Task Name<input type="text" name="tasksName"><br>
+		<input type="submit" name="submit" value="submit">
+	</form>
+	<ul>
+		<%= taskName %>
+		<li>
+		</li>
+	</ul>
+</body>
+</html>

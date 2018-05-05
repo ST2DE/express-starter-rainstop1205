@@ -1,4 +1,4 @@
-Skip to content
+﻿Skip to content
 This repository
 Search
 Pull requests
@@ -77,7 +77,11 @@ typings/
 # next.js build output
 .next
 
+# Visual Studio
+*.vs
+
 package-lock.json
+
 © 2018 GitHub, Inc.
 Terms
 Privacy
